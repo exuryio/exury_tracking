@@ -1,0 +1,13 @@
+fastapi>=0.100.0
+uvicorn==0.34.0
+pydantic>=2.0.0
+pydantic_core>=2.0.0
+anyio
+httpx==0.28.1
+requests
+python-dotenv==1.0.1
+prometheus-fastapi-instrumentator
+prometheus_client==0.21.1
+sqlalchemy
+psycopg2-binary
+typing-extensions>=4.12.2
