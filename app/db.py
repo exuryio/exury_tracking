@@ -4,7 +4,7 @@ from app.models.base import Base
 
 
 # Definir la URL de la base de datos
-DATABASE_URL = "postgresql://exury:1017@localhost/exury_tracking_db"  
+DATABASE_URL = "postgresql://tracking_db_te1b_user:ORnC0nZczdLXOJXCUSMnsc9fiC3WcxPi@dpg-d09r83ili9vc73aq87o0-a.frankfurt-postgres.render.com/tracking_db_te1b"  
 
 # Crear el engine con la URL de conexión
 engine = create_engine(DATABASE_URL, echo=True)
