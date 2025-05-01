@@ -1,7 +1,7 @@
 import requests
 
-def get_address(latitude: float, longitude: float):
-    url = f"https://nominatim.openstreetmap.org/reverse"
+def get_address(latitude: float, longitude: float) -> str:
+    url = "https://nominatim.openstreetmap.org/reverse"
     params = {
         "format": "json",
         "lat": latitude,
@@ -10,8 +10,10 @@ def get_address(latitude: float, longitude: float):
     headers = {
         "User-Agent": "web-tracking-app"
     }
+
     response = requests.get(url, params=params, headers=headers)
     if response.status_code == 200:
         data = response.json()
-        return data.get("address", {})
-    return {}
+        return data.get("display_name", "Dirección no encontrada")
+    return "Dirección no encontrada"
+

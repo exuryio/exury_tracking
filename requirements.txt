@@ -1,7 +1,7 @@
-fastapi>=0.100.0
-uvicorn==0.34.0
-pydantic>=2.0.0
-pydantic_core>=2.0.0
+fastapi==0.100.0
+uvicorn==0.23.0
+pydantic==1.10.2
+pydantic_core==2.1.2
 anyio
 httpx==0.28.1
 requests
@@ -10,4 +10,4 @@ prometheus-fastapi-instrumentator
 prometheus_client==0.21.1
 sqlalchemy
 psycopg2-binary
-typing-extensions>=4.12.2
+typing-extensions>=4.12.0
