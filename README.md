@@ -126,7 +126,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 ------------------------------------------------------------------------
 
 ## 👤 Author
-Metrics work with:
+Collaboration with:
 
 -   (https://github.com/yizpuentesc)
 -   (https://github.com/Divisy)
@@ -144,6 +144,7 @@ This project is licensed under the **ISC License**.
 ## ⭐ Support
 
 If this project was useful, please consider starring the repository! ⭐
+
 
 
 
